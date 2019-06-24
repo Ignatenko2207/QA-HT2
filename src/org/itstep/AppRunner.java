@@ -10,7 +10,7 @@ public class AppRunner {
         System.out.println(resultByStringManipulation);
     }
 
-    private static int getSumByStringManipulation(int number) {
+    public static int getSumByStringManipulation(int number) {
         int result = 0;
 
         String numberAsString = String.valueOf(number);
